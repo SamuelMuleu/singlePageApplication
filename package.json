@@ -1,0 +1,20 @@
+{
+  "name": "spa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lite": "^4.0.5",
+    "live": "^0.1.25-beta.0",
+    "server": "^1.0.38"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

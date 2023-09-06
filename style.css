@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+
+}
+
+
+body {
+  display: block;
+
+  min-height: 100vh;
+  background-image: url(/assets/mountains-universe.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-position: center center;
+
+
+}
+img {
+  padding-left: 3rem;
+}
+nav {
+  padding-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+ place-content: space-evenly;
+  height: 1rem;
+  width: 66rem;
+}
+a {
+  text-decoration: none;
+  color: #c4c4cc;
+  font-weight: 400;
+  font-size: 2rem;
+}
+a:hover {
+  color: #ffff;
+}
+#app{
+  margin-top: 12rem;
+  height: 14rem;
+ 
+
+
+}
+
+
+

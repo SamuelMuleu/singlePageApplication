@@ -4,6 +4,7 @@ const router = new Router();
 router.addRoute("/home.html", "/pages/home.html");
 router.addRoute("/universe.html", "/pages/universe.html");
 router.addRoute("/exploration.html", "/pages/exploration.html");
+router.addRoute("/index.html", "/pages/index.html");
 
 router.addImage("/home.html", "/assets/mountains-universe.png");
 router.addImage("/universe.html", "/assets/mountains-universe02.png");
